@@ -1,0 +1,41 @@
+@import './Components/Menus//menuStyle.css';
+
+#webview-header-container {
+    justify-content: space-between !important;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+#webview-header-container a {
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+#webview-header-container > li {
+    line-height: 42px; 
+}
+
+#search-input {
+    width: 45%;
+    padding: 0;
+}
+#search-input i {
+    color: #f57706;
+}
+@media (min-width: 768px) and (max-width: 967px) { 
+    #search-input {
+        width: 30%;
+        padding: 0;
+    }
+}
+
+.nav-fontStyle {
+    font-size: 15px;
+    color: #6e6e6e;
+}
+.nav-iconStyle {
+    font-size: 16px !important;
+}
+

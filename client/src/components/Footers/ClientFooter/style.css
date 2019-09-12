@@ -1,0 +1,27 @@
+
+#client-footer-container {
+    position: relative;
+    box-shadow: 0 0 1px 1px rgba(99, 99, 99, 0.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    padding: 0;
+    border-bottom: 5px solid #f57706;
+    background: #f3f3f394;
+}
+
+#client-footer-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    line-height: 2.2;
+    padding: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.p-children-1 > * {
+    padding: .25rem;
+}
+
+.p-children-1 a :hover {
+    text-decoration: underline;
+    opacity: .8;
+}

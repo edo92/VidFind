@@ -1,0 +1,14 @@
+.checkout-item {
+    border: 1px solid #d9d9d9;
+    display: flex;
+    margin: 0;
+    border-radius: 3px;
+}
+
+.mx-width-100px {
+    max-width: 100px;
+}
+
+.font-13 {
+    font-size: 13px;
+}

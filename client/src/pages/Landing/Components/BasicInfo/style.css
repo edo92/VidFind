@@ -1,0 +1,6 @@
+#basicInfo-curve-container{
+    transform: skewY(-6deg);
+    background: radial-gradient( circle at 6% 0,#f57706bf,#ffa228e0 47%,#ff9100d6 );
+    height: 500px;
+    z-index: 2;
+}

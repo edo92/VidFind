@@ -1,0 +1,30 @@
+#searchBanner-container {
+    height: 385px;
+    padding: 0;
+    padding-bottom: 1rem;
+}
+
+#explore-banner-input {
+    font-size: 20px;
+    padding: 28px;
+}
+
+#explore-search .ant-input-suffix {
+    font-size: 20px;
+    color: #f57706;
+}
+
+#explore-search {
+    border-radius: 2px;
+    padding-top: 8.5rem;
+    width: 35rem;
+    padding-left: 8vw;
+}
+
+.bg-img {
+    height: 100%;
+}
+
+.text-white > * {
+    color: #f1f1f1;
+}

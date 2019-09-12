@@ -1,0 +1,58 @@
+#contentCard-container {
+    padding-left: .4rem;
+    padding-right: .4rem;
+}
+
+.client-video-list {
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    border-radius: 2px;
+    margin: 0 !important; 
+    padding: .25rem;
+}
+
+.videoTitle {
+    font-weight: 700;
+}
+
+#contentCard-container .client-video-list img {
+    border-radius: 3px;
+}
+
+#contentCard-container .videoTitle small {
+    color: #686F7B;
+}
+
+#contentCard-container .card-img img {
+    width:100%;
+    height:175px;
+    object-fit:cover;
+}
+
+#contentCard-container #purchased small {
+    padding-left: .25rem;
+    padding-right: .25rem;
+    font-weight: 500;
+}
+
+#contentCard-container #purchased i {
+    font-size: 11px;
+}
+
+#contentCard-container #price {
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-img .play-btn {
+    position: absolute;
+    opacity: .5;
+    font-size: 75px;
+    top: 3rem;
+    color: #2f2f2f;
+}
+
+.card-img .play-btn:hover {
+    color: black !important;
+    font-size: 76px;
+    transition: all 160ms;
+}

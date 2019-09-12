@@ -1,0 +1,28 @@
+#checkout-body-container {
+    margin: 0;
+    padding: 1rem;
+    padding-top: 3rem;
+}
+
+#checkout-items {
+    min-height: 300px;
+}
+
+#checkout-container {
+    min-height: 530px;
+}
+
+@media only screen and (min-width: 1225px) {
+    #checkout-body-container {
+        padding-right: 7rem;
+        padding-left: 7rem;
+    }
+}
+
+
+@media all and (min-width: 670px) and (max-width: 768px) {
+    #checkout-body-container {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }  
+}

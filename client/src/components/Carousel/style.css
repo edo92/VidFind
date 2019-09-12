@@ -1,0 +1,39 @@
+
+#showcase-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+/* --- Style Classes --- */
+.content-title {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.content-title .title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 1.47em;
+    color: #6e6e6e;
+}
+
+
+/* --- View All Bttn --- */
+.viewall-content {
+    width: 100%;
+    text-align: right;
+    line-height: 2;
+    padding-top: .2rem;
+    padding-right: 1.5rem;
+}
+.viewall-content .viewall-bttn {
+    border: 1px solid #6e6e6e75;
+    color: #6e6e6eb4 !important;
+    padding: .3rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border-radius: 5px;
+    font-size: 14px;
+}

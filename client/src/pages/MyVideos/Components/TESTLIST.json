@@ -1,0 +1,40 @@
+ 
+[
+    {
+      "id": 1,
+      "title":"Los Ageles high rises",
+      "detail": "Most beautiful view of Los Angeles Downtown buildings at night",
+      "image": "https://exisglobal.com/wp-content/uploads/hero-Los-Angeles-skyline.jpg",
+      "purchased": false
+    },
+    {
+      "id": 2,
+      "title":"China Baijin City",
+      "detail": "Most beautiful view of Baijin Downtown buildings at night",
+      "image": "https://www.prologis.com/sites/corporate/files/styles/1_5__md_2x/public/images/2017/03/CN_Beijing_1_0.jpg?h=ed113a42&itok=xp2HhG2q",
+      "purchased": false
+    },
+    {
+      "id": 3,
+      "title": "Dog behide blue screen",
+      "detail": "Dog playing around behinde blue screen",
+      "image": "https://petharbor.com/get_image.asp?RES=Detail&ID=A606472&LOCATION=AZHS",
+      "purchased": false
+    },
+    {
+      "id":4,
+      "title":"Island shot by drone",
+      "detail": "Nature, Image of island shot by drone",
+      "image": "https://www.tokkoro.com/picsup/2997744-nature-landscape-waves-aerial-view-drone-island-pacific-ocean___mixed-wallpapers.jpg",
+      "purchased": true
+    },
+    {
+      "id": 5,
+      "title":"Test of image",
+      "detail": "Testing functionality",
+      "image": "https://www.tokkoro.com/picsup/5201359-drone-view-aerial-view-forest-tree-woodland-road-path-route-trail-terrain-from-above-aerial-overview-small-person-drone-division-nature-pathway-wood-free-images.jpg",
+      "purchased": false
+    }
+    
+  ] 
+

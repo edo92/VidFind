@@ -1,0 +1,51 @@
+#body-header-container {
+    background-color: rgb(80, 87, 99);
+    min-height: 134px;
+    padding: 0;
+}
+
+#body-header-container .ant-menu-root {
+    background-color: transparent;
+    color: #fff;
+}
+
+#body-header-container #menu-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1010px;
+    padding: 0;
+}
+
+
+/* --- Title */
+#title-container :first-child {
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+#title-container {
+    font-weight: 300;
+    padding: 30px 0 0 !important;
+}
+
+#title-container div {
+    width: 1010px !important;
+}
+
+.body-title {
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: .5rem;
+}
+
+
+/* --- BreadCrum Routes --- */
+.body-breadcrumb {
+    padding: .25rem;
+}
+.body-breadcrumb span {
+    color: #fff;
+}
+.body-breadcrumb a {
+    color: #fff;
+}
