@@ -1,19 +1,37 @@
-#intro-container{
-    height: 620px;
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Muli|Roboto&display=swap');
+
+#intro-container {
+    height: 665px;
     padding: 0;
 }
 
-#intro-signup-btn{
+#landing-banner-img {
+    margin-top: -4.8rem;
+    width: 100%;
+    position: absolute;
+    height: 850px;
+}
+
+#intro-explore-btn {
     background-color: #fb931d;
-    border-color: #F67C0D;
+    border-color: #fb931d;
     color:white;
     border-radius: 17px;
 } 
+
 #intro-learn-btn{
-    border: 1px solid #e6e6e6c4;
+    border: 1px solid #F67C0D;
+    color: #F67C0D;
     border-radius:17px;
 }
-
+.main-shadow {
+    text-shadow: 1px 1px 1px #F67C0D;
+}
+.main-text {
+    font-size: 36px;
+    color: #e8e8e8;
+    font-family: 'Muli', sans-serif;
+}
 
 @media all and (min-width: 0px) and (max-width: 660px) {
     #intro-textfild{

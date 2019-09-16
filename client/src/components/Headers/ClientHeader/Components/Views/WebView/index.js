@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon, Dropdown, Avatar } from 'antd';
+import { Icon, Dropdown, Avatar, Button } from 'antd';
 import './style.css'
 
 import SearchInput from '../../SearchInput';
@@ -13,7 +13,7 @@ const WebView = props => {
         <nav className='row col-12 m-0'>
             <ul id='webview-header-container'>
                 <li>
-                    <h3 className='logo-style'>VidFind</h3>
+                    <a href='/'><h3 className='logo-style'>VidFind</h3></a>
                 </li>
                 <li id='nav-category'>
                     <Icon className='nav-iconStyle' type='appstore' />
@@ -27,25 +27,38 @@ const WebView = props => {
                 <li id='search-input'>
                     <SearchInput/>
                 </li>
-                <li id='nav-myContent'>
+                { props.auth ? <li id='nav-myContent'>
                     <Dropdown overlay={ myVideoMenu } trigger={ ['click'] } className='nav-fontStyle'>
                         <a>
                             My Videos <Icon type='down' />
                         </a>
                     </Dropdown>
-                </li>
-                <li id='nav-purchases'>
-                    <Dropdown overlay={ props.menu } trigger={ ['click'] } className='nav-fontStyle'>
-                        <a>
-                            Purchases <Icon type='down' />
-                        </a>
-                    </Dropdown>
-                </li>
-                <li id='user-avatar'>
+                </li> : <li>
+                    <span>
+                        <Icon className='px-1' type='global'/>
+                        <a href='/explore' lassName='nav-fontStyle'>Explore</a>
+                    </span>
+                </li> }
+
+                { props.auth ? <li id='nav-purchases'>
+                    <a className='header-icon pr-2'>
+                        <Icon type='play-circle' />
+                    </a>
+                    <a className='header-icon-mx pl-2'>
+                        <Icon type='shopping-cart' />
+                    </a>
+                </li> : <li>
+                    <span className='nav-fontStyle'>
+                        <a className='px-3 '>Sign Up</a>
+                        <Button onClick={ props.handleSingIn } id='unauth-main-bttn'><a>Sign In</a></Button>
+                    </span>
+                </li> }
+                
+                { props.auth ? <li id='user-avatar'>
                     <Dropdown overlay={ userMenu }>
                         <Avatar style={{ color: '#f56a00', backgroundColor: '#fde3cf', marginBottom:'1px' }} size='large'>GJ</Avatar>
                     </Dropdown>
-                </li>
+                </li> : null }
             </ul>
         </nav>
     )

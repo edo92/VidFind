@@ -21,8 +21,9 @@
     padding-left: 8vw;
 }
 
-.bg-img {
+#search-banner {
     height: 100%;
+    background-size: cover;
 }
 
 .text-white > * {

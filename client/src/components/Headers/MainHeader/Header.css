@@ -1,6 +1,7 @@
 #main-header {
-    background: radial-gradient( circle at 6% 0,#f57706,#ffa228 47%,#ff9100 );
+    background: radial-gradient( circle at 6% 0,#ff863df2,#ffa83fa3 47%,#ff733b00 );
     padding: 0;
+    z-index: 1;
 }
 
 .main-logo {

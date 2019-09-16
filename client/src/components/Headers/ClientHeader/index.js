@@ -8,7 +8,8 @@ import SearchInput from './Components/SearchInput';
 
 class ClientHeader extends Component {
     state={
-        collapseSearch: '0'
+        collapseSearch: '0',
+        auth: false
     };
 
     onMobileSearchCollapse = () => {
@@ -17,13 +18,19 @@ class ClientHeader extends Component {
         });
     };
 
+    handleSingIn = () => {
+        this.setState({
+            auth: true
+        })
+    }
+
     render(){
         const Panel = Collapse.Panel;
 
         return (
             <div id='client-header-container'>
                 <div className='hidden-sm'>
-                    <WebView/>
+                    <WebView handleSingIn={ this.handleSingIn } auth={ this.state.auth }/>
                 </div>
                 <div className='visible-sm'>
                     <MobileView collapse={ this.onMobileSearchCollapse } />

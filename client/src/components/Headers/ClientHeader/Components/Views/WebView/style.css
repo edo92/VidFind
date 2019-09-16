@@ -35,7 +35,15 @@
     font-size: 15px;
     color: #6e6e6e;
 }
-.nav-iconStyle {
-    font-size: 16px !important;
+
+.header-icon {
+    font-size: 17px !important;
+}
+.header-icon-mx {
+    font-size: 18px !important;
 }
 
+#unauth-main-bttn {
+    border-color: #f57706 !important;
+    color: #f57706 !important;
+}
