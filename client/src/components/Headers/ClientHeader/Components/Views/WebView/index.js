@@ -1,8 +1,8 @@
 import React from 'react'
-import { Icon, Dropdown, Avatar, Button } from 'antd';
+import { Icon, Dropdown, Avatar, Button } from 'antd'
 import './style.css'
 
-import SearchInput from '../../SearchInput';
+import SearchInput from '../../SearchInput'
 
 import userMenu from './Components/Menus/UserMenu'
 import categoryMenu from './Components/Menus/CategoryMenu'
@@ -36,7 +36,7 @@ const WebView = props => {
                 </li> : <li>
                     <span>
                         <Icon className='px-1' type='global'/>
-                        <a href='/explore' lassName='nav-fontStyle'>Explore</a>
+                        <a href='/explore' className='nav-fontStyle'>Explore</a>
                     </span>
                 </li> }
 
